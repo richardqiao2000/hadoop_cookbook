@@ -1,6 +1,9 @@
 sudo: required
 dist: trusty
 
+# Test using the previous trusty image
+group: deprecated-2017Q3
+
 addons:
   apt:
     sources:
